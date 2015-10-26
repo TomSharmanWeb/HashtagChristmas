@@ -25,10 +25,19 @@
     }
 
 .circle {
-	width: 100px;
-	height: 100px;
+	width: 500px;
+	height: 500px;
 	background: red;
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	border-radius: 50px;
+	-moz-border-radius: 250px;
+	-webkit-border-radius: 250px;
+	border-radius: 250px;
+    position:absolute;
+    margin-top: 15%;
+    margin-left: 30%;
+}
+
+#HashText1 {
+    position: absolute;
+    padding-left: 30px;
+    padding-top: 15px;
 }
