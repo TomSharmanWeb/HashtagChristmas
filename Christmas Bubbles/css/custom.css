@@ -1,6 +1,8 @@
 #leftColumn {
     background-color: #ececec;
     padding-bottom: 32.5%;
+    opacity: 0.7;
+    margin-left: 0;
 }
 
 #leftColumnFoot {
@@ -18,10 +20,15 @@
 }
 
 #backgroundImage {
-    width: 105%;
-    height: 140%;
-    margin-left: 0;
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+	
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
     
+    z-index: -1; 
     }
 .bottomRight{
     position: absolute; 
@@ -43,8 +50,23 @@
     margin-left: 30%;
 }
 
+.circle:hover {
+    opacity: 0.6;
+}
+
 #HashText1 {
+    margin-left: 38%;
+    margin-top: 27%;
     position: absolute;
-    padding-left: 30px;
-    padding-top: 15px;
+    z-index: 2;
+    font-size: 15em;
+    }
+
+#logo {
+    opacity: 1.0;
+    width:100%;
+}
+
+#logo:hover {
+    opacity: 0.7;
 }
