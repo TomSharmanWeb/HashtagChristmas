@@ -1,12 +1,25 @@
 #leftColumn {
     background-color: #ececec;
-    padding-bottom: 53.5%;
+    padding-bottom: 32.5%;
 }
 
 #leftColumnFoot {
-
+    margin-top: 25em;
 }
 
 #LangSelect {
+    padding-top: 5em;
     padding-left: 3em;
 }
+#MainContainer {
+    margin-left: 0;
+    margin-right: 0;
+    margin: 0;
+}
+
+#backgroundImage {
+    width: 105%;
+    height: 140%;
+    margin-left: 0;
+    
+    }
