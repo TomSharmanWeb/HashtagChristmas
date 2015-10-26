@@ -52,7 +52,8 @@
     margin-top: 27%;
     position: absolute;
     z-index: 2;
-}
+    font-size: 15em;
+    }
 
 #logo {
     opacity: 1.0;
