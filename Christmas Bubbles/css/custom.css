@@ -23,6 +23,13 @@
     margin-left: 0;
     
     }
+.bottomRight{
+    position: absolute; 
+    right: 100px; 
+    display: inline-block;
+    height: 10px;
+}
+
 
 .circle {
 	width: 500px;
