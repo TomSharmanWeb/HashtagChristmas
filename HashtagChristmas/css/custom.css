@@ -33,12 +33,16 @@
     }
 .bottomRight{
     position: absolute; 
-    bottom: 0.5px;
-    right: 100px; 
-    
-    
+    bottom: 5px;
+    right: 100px;   
 }
 
+.bottomleft {
+    position: absolute; 
+    bottom: 5px;
+    left: 100px;
+    
+}
 
 .circle {
 	width: 500px;
