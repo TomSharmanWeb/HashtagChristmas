@@ -37,7 +37,8 @@
 }
 
 #HashText1 {
+    margin-left: 38%;
+    margin-top: 27%;
     position: absolute;
-    padding-left: 30px;
-    padding-top: 15px;
+    z-index: 2;
 }
