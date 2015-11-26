@@ -22,7 +22,7 @@
 }
 
 .cont2 {
-    display: block;
+    display: none;
     z-index: -1;
 }
 
@@ -73,7 +73,7 @@
 }
 
 .cont3 {
-    display: block;
+    display: none;
     z-index: -2;
 }
 
